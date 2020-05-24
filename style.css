@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+
+body{
+font-family:'Century gothic';
+background-color: #fff;
+}
+
+h2{
+  font-size: 2.5rem;
+  text-align:center; 
+  color: #034422;
+}
+
+h4{
+  color: #034422;
+}
+
+form label, p{
+  font-weight: normal !important;
+}
+#navbarNav li:hover{
+  background-color: #fff;
+}
+
+/*MENU*/
+.navbar-nav{
+  font-size: 1em;
+  font-weight:720;
+}
+nav{
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.nav-item a{
+  text-align:left;
+}
+.bg-light{
+  background-color: #fff!important;
+}
+
+.navbar-light,.navbar-nav .nav-item .nav-link {
+color:#034422;
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link{
+  color: #034422;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #034422;
+}
+
+.navbar-light .navbar-toggler{
+ border-color:transparent;
+}
+
+/*CAROUSEL*/
+.img-fluid{
+  max-width: 100%;
+  max-height: 680px; 
+  height: auto;
+}
+section.carousel-inner .item{
+  height:100vh;
+}
+
+div.carousel-caption{
+  padding-bottom:260px;
+   
+}
+.carousel-caption h2{
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*SERVIÇOS*/
+#sectionservicos{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+#sobreservicos h3{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.info_img{
+  margin-top: 20px;
+}
+
+
+/*PROPOSITO*/
+#sectionproposito{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.card{
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: auto;
+  height: auto;
+  border:none;
+}
+.card h3{
+  color: #034422;
+  text-align: center;
+}
+.card h5{
+  font-size: 19px;
+  text-align: center;
+}
+
+/*PORTFÓLIO*/
+#sectionport{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+#sectionport img{
+  margin-bottom: 70px;
+}
+.card_empresa{
+  border: 1px solid #ede7e6;
+  width: 280px;
+  height: 150px;
+}
+#card_empresain{
+  border: 1px solid #ede7e6;
+  width: 280px;
+  height: 150px;  
+  margin-bottom: 70px;  
+}
+#img_port img{
+  margin-top: 100px;
+  margin-bottom: 160px;
+}
+#sectionport{
+  margin: 0 auto;
+}
+#section_contato{
+  margin-bottom: 100px;
+}
+
+/*CONTATO*/
+#v-pills-tabContent{
+  border: 1px solid #fff;
+  border-radius: 10px;
+  height: 350px;
+}
+
+#v-pills-home-tab{
+  text-align:center; 
+  border-style: solid;
+  border-width: 2px;
+  border-color: #034422;
+  border-radius: 20px;
+  background-color:#FFFFFF;
+  padding: 10px 20px;
+  color: #034422;
+  margin-bottom: 15px;
+}
+
+#v-pills-profile-tab{
+  text-align:center; 
+  border-style: solid;
+  border-width: 2px;
+  border-color: #034422;
+  border-radius: 20px;
+  background-color:#FFFFFF;
+  padding: 10px 20px;
+  color: #034422;
+}
+
+button.btn.btn-primary{
+  color: #ffffff;
+  background-color:#034422;
+  border-color:#034422;
+}
+.menu{
+  width: 100%;
+  height: 50%;
+  background-color:#FFFFFF;
+  
+}
+.menu ul{
+  list-style: none;
+  position: relative;
+}
+.menu ul li{
+  width: 150px;
+  float: left;
+}
+
+#section_contato{
+
+}
+#contato{
+  margin-top: 150px;
+  margin-bottom: 100px;  
+}
+
+#contate{
+  background-color: #034422;
+  color: #fff;
+}
+
+#contate:hover{
+  background-color: #4ce074;
+}
+
+/*RODAPÉ*/
+#rodapeinicial{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 12px 0;
+  padding: 26px;
+  background-color: #034422;
+  color: #fff;
+}
+#rodapeinicial p{
+  font-size: 1em !important;
+  color:#fff;
+}
+.display-4{
+  font-size: 10px;
+  margin: 0 10px;
+}
